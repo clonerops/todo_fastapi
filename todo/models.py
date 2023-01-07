@@ -2,7 +2,7 @@ from sqlalchemy import Column, Boolean, Integer, String
 from database import Base
 
 
-class Todo(Base):
+class Todos(Base):
     __tablename__ = 'todos'
 
     Id = Column(Integer, index=True, primary_key=True)
